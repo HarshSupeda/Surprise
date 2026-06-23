@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* 1. Luxury Glassmorphism */
+.glass-panel {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* 2. Premium Text Gradient */
+.text-gradient-gold {
+  background-image: linear-gradient(to right, #fecdd3, #fce7f3, #fecdd3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* 3. Glowing Aurora Background */
+.aurora-bg {
+  background: radial-gradient(circle at 50% 0%, rgba(225, 29, 72, 0.15), transparent 50%),
+              radial-gradient(circle at 80% 80%, rgba(168, 85, 247, 0.15), transparent 50%);
+}
+
+/* Global Reset */
+body {
+  background-color: #050505;
+  color: #f8fafc;
+  overflow-x: hidden;
+}
